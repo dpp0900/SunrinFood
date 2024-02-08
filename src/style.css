@@ -1,0 +1,99 @@
+/* 전체 스타일 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 헤더 스타일 */
+header {
+  background-color: #00BFFF;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.logo h1 {
+  margin-left: 20px;
+  font-size: 32px;
+}
+
+/* 메인 스타일 */
+main {
+  padding: 20px;
+}
+
+.meal {
+  margin-bottom: 40px;
+}
+
+.meal h2 {
+  font-size: 24px;
+}
+
+.meal-info {
+  display: flex;
+  margin-top: 20px;
+}
+
+.meal-image {
+  flex: 1;
+}
+
+.meal-image img {
+  width: 80%;
+}
+
+.meal-text {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 150px;
+  font-size: larger;
+  
+}
+
+.meal-text p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.date-navigation {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date-navigation a {
+  color: #00BFFF;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #00BFFF;
+  text-decoration: none;
+  font-size: 16px;
+}
